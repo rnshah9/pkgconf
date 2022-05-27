@@ -1,0 +1,8 @@
+project: rnshah9/pkgconf
+target: pkgconf
+tests: null
+image: ghcr.io/rnshah9/playground:pkgconf
+
+cmds:
+  - cmd: /repo/.libs/pkgconf --validate test --with-path=/
+    filepath: /test.pc
